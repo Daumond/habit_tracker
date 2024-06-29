@@ -8,3 +8,4 @@ celery>=5.1,<6.0
 redis>=3.5,<4.0
 requests>=2.25,<3.0
 python-telegram-bot>=21.3
+pillow>=10.3.0
