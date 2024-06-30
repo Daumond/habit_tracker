@@ -64,6 +64,12 @@ celery -A habit_tracker worker --loglevel=info
 * GET /api/telegram/telegram_users/: Список всех пользователей Telegram.
 * POST /api/telegram/telegram_users/: Создание нового пользователя Telegram.
 
+### Документация API
+Документация API доступна по следующим URL после запуска сервера:
+
+* Swagger: /swagger/
+* ReDoc: /redoc/
+
 ### Тестирование
 Запустите тесты с помощью следующей команды:
 
