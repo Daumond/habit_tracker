@@ -47,6 +47,12 @@ celery -A habit_tracker worker --loglevel=info
 ```bash
  celery -A habit_tracker beat --loglevel=info
 ```
+## Docker
+- Для запуска программы в Docker: 
+```bash
+docker compose up --build
+````
+
 ### Использование
 * Доступ к панели администратора по адресу http://localhost:8000/admin/ для управления пользователями и привычками.
 * Регистрация и вход пользователей через предоставленные API-эндпоинты.
